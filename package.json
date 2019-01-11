@@ -9,8 +9,11 @@
   "dependencies": {
     "mqtt": "^2.13.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+	"mqtt": "^2.13.1"
+  },
   "scripts": {
+	"pretest": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "scott68.chang@advantech.com.tw",

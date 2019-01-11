@@ -1,7 +1,7 @@
 {
   "name": "wisecore",
   "version": "1.0.0",
-  "description": "",
+  "description": "core library to connect to WISE-PaaS/EdgeSense",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -13,6 +13,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "scott68.chang@advantech.com.tw",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "http://advgitlab.eastasia.cloudapp.azure.com/EI-Connect/EI-Connect-Node.js.git"
+  },
+  "keywords": [
+    "EI-Connect"
+  ]
 }
